@@ -4,7 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 def home(request):
     
-    html_var = 'rad!'
     html_ = """
     <!DOCTYPE html>
     <html lang = en>
@@ -12,7 +11,7 @@ def home(request):
         </head>
         <body>
             <h1>Hello World!</h1>
-            <p>Nathan is {html_var}</p>
+            <p>Nathan is rad!</p>
         </body>
     </html>
     """
