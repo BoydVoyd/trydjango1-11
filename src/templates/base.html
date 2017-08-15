@@ -4,6 +4,12 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <p>Nathan is rad!</p>
+        {% if bool_item %}
+            <p>Nathan is {{ html_var }} times {{num}}!</p>
+        {% endif %}
+        {% for some_item in some_list %}
+            {{ some_item}}</br>
+        {% endfor %}
+        <p> {{some_item}}</p>
     </body>
 </html>
