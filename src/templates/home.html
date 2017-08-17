@@ -1,0 +1,12 @@
+<h1>Hello World!</h1>
+{% if bool_item %}
+    <p>Nathan is {{ html_var }} times {{num}}!</p>
+{% endif %}
+{% for some_item in some_list %}
+    {% if some_item|divisibleby:"2" %}
+        Even number
+    {% endif %}
+    {{ some_item}}</br>
+{% endfor %}
+<p> {{some_item}}</p>
+<p> {% lorem 3 p random %}
